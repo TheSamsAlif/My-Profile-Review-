@@ -148,7 +148,7 @@
 
 ---
 
-<!-- ▓▓▓ RED & ORANGE HACKER TERMINAL FOOTER ▓▓▓ -->
+<!-- ▓▓▓ RED & ORANGE HACKER TERMINAL FOOTER WITH ANIMATED FINISHING ▓▓▓ -->
 <div align="center">
 
 ```diff
@@ -164,8 +164,14 @@
 
 <br><br>
 
+<!-- ▓▓▓ TERMINAL TYPING LOGOUT SEQUENCE ▓▓▓ -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2500&pause=800&color=FF6B00&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=%24+sudo+systemctl+poweroff+--matrix;%5BOK%5D+Session+closed.+The+terminal+never+sleeps...+%E2%9A%A1" alt="Logout Sequence" />
+
+<br>
+
+<!-- ▓▓▓ WAVING CYBER ANIMATION BANNER ▓▓▓ -->
 <p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0A101F,50:FF6B00,100:FF3B30&section=footer&text=⚡%20STAY%20ANONYMOUS%20•%20STAY%20LETHAL%20⚡&fontSize=22&fontColor=ffffff&fontAlignY=70&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:0A101F,50:FF6B00,100:FF3B30&section=footer&text=⚡%20STAY%20ANONYMOUS%20•%20STAY%20LETHAL%20⚡&fontSize=22&fontColor=ffffff&fontAlignY=70&animation=fadeIn" width="100%"/>
 </p>
 
 ```
