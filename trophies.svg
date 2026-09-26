@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="150" viewBox="0 0 860 150" fill="none">
+  <defs>
+    <linearGradient id="t-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120809"/>
+      <stop offset="100%" stop-color="#080405"/>
+    </linearGradient>
+    <linearGradient id="t-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3B30"/>
+      <stop offset="100%" stop-color="#FF7700"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .t-title { font: 700 13px 'Segoe UI', Ubuntu, sans-serif; fill: #FFA07A; text-anchor: middle; }
+    .t-rank { font: 900 18px 'JetBrains Mono', monospace; fill: #FFD700; text-anchor: middle; }
+    .t-desc { font: 600 11px 'JetBrains Mono', monospace; fill: #94A3B8; text-anchor: middle; }
+  </style>
+
+  <!-- Trophy 1: Multi-Language -->
+  <g transform="translate(10, 10)">
+    <rect x="0" y="0" width="155" height="130" rx="12" fill="url(#t-card-bg)" stroke="url(#t-border)" stroke-width="1.5"/>
+    <text x="77" y="38" font-size="28" text-anchor="middle">🌐</text>
+    <text x="77" y="65" class="t-title">Polyglot</text>
+    <text x="77" y="90" class="t-rank" fill="#FF4500">RANK: SSS</text>
+    <text x="77" y="112" class="t-desc">8+ Languages</text>
+  </g>
+
+  <!-- Trophy 2: Commits -->
+  <g transform="translate(180, 10)">
+    <rect x="0" y="0" width="155" height="130" rx="12" fill="url(#t-card-bg)" stroke="url(#t-border)" stroke-width="1.5"/>
+    <text x="77" y="38" font-size="28" text-anchor="middle">⚡</text>
+    <text x="77" y="65" class="t-title">Committer</text>
+    <text x="77" y="90" class="t-rank" fill="#FF7700">RANK: SSS</text>
+    <text x="77" y="112" class="t-desc">1000+ Commits</text>
+  </g>
+
+  <!-- Trophy 3: Pull Requests -->
+  <g transform="translate(350, 10)">
+    <rect x="0" y="0" width="155" height="130" rx="12" fill="url(#t-card-bg)" stroke="url(#t-border)" stroke-width="1.5"/>
+    <text x="77" y="38" font-size="28" text-anchor="middle">🔀</text>
+    <text x="77" y="65" class="t-title">PR Champion</text>
+    <text x="77" y="90" class="t-rank" fill="#FF3B30">RANK: SS</text>
+    <text x="77" y="112" class="t-desc">Master Operator</text>
+  </g>
+
+  <!-- Trophy 4: Red Team / Security -->
+  <g transform="translate(520, 10)">
+    <rect x="0" y="0" width="155" height="130" rx="12" fill="url(#t-card-bg)" stroke="url(#t-border)" stroke-width="1.5"/>
+    <text x="77" y="38" font-size="28" text-anchor="middle">🛡️</text>
+    <text x="77" y="65" class="t-title">Cyber Armor</text>
+    <text x="77" y="90" class="t-rank" fill="#FFD700">RANK: SSS</text>
+    <text x="77" y="112" class="t-desc">Zero Breach</text>
+  </g>
+
+  <!-- Trophy 5: Star Collector -->
+  <g transform="translate(690, 10)">
+    <rect x="0" y="0" width="155" height="130" rx="12" fill="url(#t-card-bg)" stroke="url(#t-border)" stroke-width="1.5"/>
+    <text x="77" y="38" font-size="28" text-anchor="middle">⭐</text>
+    <text x="77" y="65" class="t-title">Stargazer</text>
+    <text x="77" y="90" class="t-rank" fill="#FF9500">RANK: S</text>
+    <text x="77" y="112" class="t-desc">Elite Repos</text>
+  </g>
+</svg>
