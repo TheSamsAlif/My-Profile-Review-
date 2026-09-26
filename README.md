@@ -95,14 +95,8 @@
 
   <br><br>
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=TheSamsAlif&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=00ff41&icon_color=ff0033&text_color=39d353&bg_color=0A101F&card_width=500" />
-    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=TheSamsAlif&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=00ff41&icon_color=ff0033&text_color=39d353&bg_color=0A101F&card_width=500" alt="GitHub Stats"/>
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=TheSamsAlif&layout=compact&langs_count=8&hide_border=true&title_color=00ff41&icon_color=ff0033&text_color=39d353&bg_color=0A101F&card_width=500" />
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheSamsAlif&layout=compact&langs_count=8&hide_border=true&title_color=00ff41&icon_color=ff0033&text_color=39d353&bg_color=0A101F&card_width=500" alt="Top Languages"/>
-  </picture>
+  <img width="49%" src="https://github-readme-stats-xi-nine-72.vercel.app/api?username=TheSamsAlif&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="GitHub Stats"/>
+  <img width="49%" src="https://github-readme-stats-xi-nine-72.vercel.app/api/top-langs/?username=TheSamsAlif&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="Top Languages"/>
 
 </div>
 
