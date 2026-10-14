@@ -1,11 +1,9 @@
-name: Generate Advanced Pacman Animation
+name: Generate Contribution Animations
 
 on:
-  schedule: 
+  schedule:
     - cron: "0 */6 * * *"
-
   workflow_dispatch:
-
   push:
     branches:
       - main
@@ -19,13 +17,21 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-        
+        uses: actions/checkout@v4
+
+      - name: Generate github-snake.svg
+        uses: Platane/snk@v3
+        with:
+          github_user_name: TheSamsAlif
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#FF6B00&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+
       - name: Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: ${{ github.repository_owner }}
-          pacman_username: ${{ github.repository_owner }}
+          github_user_name: TheSamsAlif
+          pacman_username: TheSamsAlif
           pacman_size: "medium"
           pacman_speed: "fast"
           pacman_direction: "right-left"
@@ -33,9 +39,9 @@ jobs:
           animation_effect: "smooth"
           contribution_color_scheme: "dark"
           custom_colors: "#39d353,#26a641,#006d32,#0e4429"
-      
-      - name: Push pacman-contribution-graph.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+
+      - name: Push all animations to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
